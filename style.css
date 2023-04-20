@@ -1,0 +1,41 @@
+/* Define um estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define uma fonte para o texto */
+    background-color: #f5f5f5; /* Define uma cor de fundo */
+    margin: 0; /* Remove as margens padrão */
+  }
+  
+  /* Define um estilo para o container */
+  .container {
+    max-width: 800px; /* Define uma largura máxima para o container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    padding: 20px; /* Adiciona um preenchimento ao redor do container */
+    background-color: #fff; /* Define uma cor de fundo para o container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao container */
+  }
+  
+  /* Define um estilo para o título da página */
+  h1 {
+    font-size: 28px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define o peso da fonte */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  /* Define um estilo para a imagem */
+  img {
+    display: block; /* Remove a margem inferior padrão */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Define uma largura máxima para a imagem */
+    height: auto; /* Define a altura automaticamente para manter a proporção da imagem */
+    margin-bottom: 20px; /* Adiciona uma margem inferior para separar a imagem do texto */
+  }
+  
+  /* Define um estilo para o texto */
+  p {
+    font-size: 18px; /* Define o tamanho da fonte */
+    line-height: 1.5; /* Define a altura da linha para facilitar a leitura */
+    text-align: justify; /* Justifica o texto */
+    margin-bottom: 20px; /* Adiciona uma margem inferior para separar os parágrafos */
+    white-space: pre-wrap; /* Permite que o texto dentro da tag <pre> seja quebrado automaticamente */
+  }
+  
